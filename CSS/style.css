@@ -33,6 +33,7 @@ body {
 }
 .big {
     background-color: #040F16;
+    background-image: url(../HTML/images/bigwelcome.svg);
     background-size: cover;
     color: #D4E4BC;
     height: 17rem;
@@ -43,6 +44,7 @@ body {
     width: 100%;
     display: flex;
     margin: 0;
+    background-size: cover;
 
 
 }
@@ -50,4 +52,30 @@ body {
     text-align: center;
     padding: 100px;
     margin: auto;
+}
+.container1 {
+    position: relative;
+    top: 330px;
+    z-index: 2;
+    display: inline-flex;
+}
+.container1 div img {
+    width: 100%;
+    height: 50%;
+    }
+
+footer {
+    position: relative;
+    z-index: 3;
+    top: 330px;
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    background-color: #558564;
+}
+.cr {
+    text-align: center;
+    font-weight: bolder;
+    margin: auto;
+    padding: 0 200px 50px 200px;
 }

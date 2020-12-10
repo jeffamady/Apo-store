@@ -20,11 +20,11 @@ header li {
     font-weight: bolder;
     font-size: 1.3rem;
     text-align: center;
-    width: 10rem;
+    width: 7rem;
 }
 nav {
     position: relative;
-    padding-left: 700px;
+    padding: 20px 0 0 15px;
 
 }
 body {
